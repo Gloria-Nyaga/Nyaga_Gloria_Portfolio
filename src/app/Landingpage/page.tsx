@@ -16,21 +16,10 @@ const LandingPage = () => {
         </h1>
 
         <p className="text-lg md:text-xl text-gray-700 mb-4">
-          Hi, I’m Gloria —{' '}
-          <span className="font-bold text-purple-600">
-            <Typewriter
-              words={[
-                'UI/UX Designer',
-                'UX Researcher'
-              ]}
-              loop={0}
-              cursor
-              cursorStyle="|"
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
-          </span>
+            Hi, I’m Gloria —{' '}
+            <span className="font-bold text-purple-600">
+                UI/UX Designer
+            </span>
         </p>
 
         <p className="text-lg md:text-xl text-gray-700 mb-8">

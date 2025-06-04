@@ -13,7 +13,7 @@ const Projects = () => {
       category: "Product Design & Research",
       liveUrl: "https://shawazi-magezi.vercel.app/",
       researchUrl: "https://drive.google.com/drive/folders/1l0xW5f5KOkVmJWk4cr8AkQ1vIjthQB1g?usp=drive_link",
-      designUrl: "https://www.behance.net/gallery/your-shawazi-case-study",
+      designUrl: "https://www.figma.com/design/uZxMXHhxB9Rwasmfo3n6bR/Shawazi-PWA?node-id=0-4&t=GU0S5AposuRPaWrw-1",
       featured: true,
       researchHighlights: ["User Research and Design", "Process Mapping", "Regulatory Research"]
     },
@@ -41,52 +41,13 @@ const Projects = () => {
       category: "Product Design & Research",
       liveUrl: "https://magezi-informational-c594.vercel.app/",
       researchUrl: "https://docs.google.com/document/d/your-shawazi-research-doc",
-      designUrl: "https://www.behance.net/gallery/your-shawazi-case-study",
+      designUrl: "https://www.figma.com/design/M5XReGbZGKzA6X460lfyO2/Shawazi_Informational-Website-Design?node-id=0-1&t=MHei0GH95BvacPww-1",
       featured: true,
       researchHighlights: ["Stakeholder Interviews", "Process Mapping", "Regulatory Research"]
     },
 
     {
       id: 4,
-      title: "Kipepeo Fashion Brand",
-      description: "Comprehensive brand identity and UX research for a Haute Couture fashion brand. Conducted user interviews, competitive analysis, and created a complete design system inspired by butterfly transformation aesthetics.",
-      image: "/images/kipepeo.png",
-      technologies: ["User Research", "Brand Identity", "Figma", "Adobe Creative Suite"],
-      category: "Brand Design & Research",
-      liveUrl: "https://www.figma.com/design/h6brtyRmfNwvbW84k8Y6vB/Kipepeo-Fashion?node-id=0-1",
-      designUrl: "https://www.behance.net/gallery/your-kipepeo-case-study",
-      featured: false,
-      researchHighlights: ["User Persona Development", "Market Analysis", "Usability Testing"]
-    },
-
-    {
-      id: 5,
-      title: "Mindscape Content Platform",
-      description: "Research-driven design for a content platform featuring user journey mapping, information architecture, and accessibility considerations. Focused on improving reading experience and content discovery.",
-      image: "/images/Magezi.PNG",
-      technologies: ["UX Research", "Information Architecture", "Wireframing", "Prototyping"],
-      category: "UX Research & Design",
-      liveUrl: "https://www.figma.com/design/kAQj2SgSvp1lhfr96VFaTD/Magezi?node-id=0-1",
-      designUrl: "https://www.behance.net/gallery/your-mindscape-case-study",
-      featured: false,
-      researchHighlights: ["Content Strategy Research", "User Flow Analysis", "A/B Testing"]
-    },
-
-    {
-      id: 5,
-      title: "Mkulima Cooperative System",
-      description: "Research and design for agricultural cooperative management. Conducted field research with farmers, analyzed existing workflows, and designed inclusive interfaces for diverse user groups.",
-      image: "/images/mkulima.png",
-      technologies: ["Ethnographic Research", "Service Design", "Inclusive Design", "Figma"],
-      category: "Social Impact Design",
-      liveUrl: "https://www.figma.com/design/EUUV64BzyeWKSxjpG3I4xV/Mkulima-Wireframes-Design",
-      designUrl: "https://www.behance.net/gallery/your-mkulima-case-study",
-      featured: false,
-      researchHighlights: ["Field Research", "Cultural Sensitivity Analysis", "Accessibility Research"]
-    },
-
-    {
-      id: 6,
       title: "Musica Streaming Interface",
       description: "Music discovery platform with focus on user behavior research and API integration patterns. Analyzed music consumption habits and designed intuitive discovery mechanisms.",
       image: "/images/musica.png",
@@ -96,7 +57,43 @@ const Projects = () => {
       designUrl: "https://www.behance.net/gallery/your-musica-case-study",
       featured: false,
       researchHighlights: ["Music Consumption Research", "API Usability Study"]
-    }
+    },
+
+    {
+      id: 5,
+      title: "Kipepeo Fashion Brand",
+      description: "Comprehensive brand identity and UX research for a Haute Couture fashion brand. Conducted user interviews, competitive analysis, and created a complete design system inspired by butterfly transformation aesthetics.",
+      image: "/images/kipepeo.png",
+      technologies: ["User Research", "Brand Identity", "Figma", "Adobe Creative Suite"],
+      category: "Brand Design & Research",
+      designUrl: "https://www.figma.com/design/h6brtyRmfNwvbW84k8Y6vB/Kipepeo-Fashion?node-id=0-1",
+      featured: false,
+      researchHighlights: ["User Persona Development", "Market Analysis", "Usability Testing"]
+    },
+
+    {
+      id: 6,
+      title: "Mindscape Content Platform",
+      description: "Research-driven design for a content platform featuring user journey mapping, information architecture, and accessibility considerations. Focused on improving reading experience and content discovery.",
+      image: "/images/Magezi.PNG",
+      technologies: ["UX Research", "Information Architecture", "Wireframing", "Prototyping"],
+      category: "UX Research & Design",
+      designUrl: "https://www.figma.com/design/kAQj2SgSvp1lhfr96VFaTD/Magezi?node-id=0-1",
+      featured: false,
+      researchHighlights: ["Content Strategy Research", "User Flow Analysis", "A/B Testing"]
+    },
+
+    {
+      id: 7,
+      title: "Mkulima Cooperative System",
+      description: "Research and design for agricultural cooperative management. Conducted field research with farmers, analyzed existing workflows, and designed inclusive interfaces for diverse user groups.",
+      image: "/images/mkulima.png",
+      technologies: ["Ethnographic Research", "Service Design", "Inclusive Design", "Figma"],
+      category: "Social Impact Design",
+      designUrl: "https://www.figma.com/design/EUUV64BzyeWKSxjpG3I4xV/Mkulima-Wireframes-Design",
+      featured: false,
+      researchHighlights: ["Field Research", "Cultural Sensitivity Analysis", "Accessibility Research"]
+    },
   ];
 
   return (
@@ -162,15 +159,15 @@ const Projects = () => {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-center py-3 rounded-lg font-small hover:shadow-md hover:scale-105 transition-transform"
+                      className="flex-1 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-center text-sm py-3 rounded-lg font-medium hover:shadow-md hover:scale-105 transition-transform"
                     >
-                      Figma Design
+                      Deployed
                     </a>
                     <a
                       href={project.researchUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 border-purple-500 text-purple-500 text-center py-3 rounded-lg font-small hover:shadow-md hover:scale-105 transition-transform"
+                      className="flex-1 border-purple-500 text-purple-500 text-center py-3 rounded-lg font-medium text-sm hover:shadow-md hover:scale-105 transition-transform"
                     >
                       Research Docs
                     </a>
@@ -178,9 +175,9 @@ const Projects = () => {
                       href={project.designUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 border-2 border-purple-500 text-purple-500 text-center py-2 rounded-lg font-small hover:bg-purple-500 hover:text-white transition-all"
+                      className="flex-1 border-2 border-purple-500 text-purple-500 text-center py-3 rounded-lg text-sm font-medium hover:bg-purple-500 hover:text-white transition-all"
                     >
-                      Behance Design
+                      Figma Design
                     </a>
                   </div>
                 </div>

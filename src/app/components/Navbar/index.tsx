@@ -61,7 +61,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between w-full">
         <div className="ml-4 md:ml-12 mr-10">
           <Link href="/">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent cursor-pointer">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold italic font-[cursive] bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent cursor-pointer">
               Gloria.
             </h1>
           </Link>

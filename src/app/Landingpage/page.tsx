@@ -2,7 +2,6 @@
 'use client';
 
 import React from 'react';
-import { Typewriter } from 'react-simple-typewriter';
 
 const LandingPage = () => {
   return (
